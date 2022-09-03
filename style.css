@@ -1,0 +1,44 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+.serif {
+  font-family: 'Libre Bodoni', serif;
+}
+
+body {
+  overflow-x: hidden;
+  
+}
+
+a {
+  text-decoration: none !important;
+}
+
+nav a:hover, 
+#social-icons a :hover {
+  color: #fec007 !important;
+}
+
+#intro {
+  height: 400px;
+  background: url(./img/intro2.jpeg) no-repeat center/cover;
+}
+
+#book {
+  background: url(./img/book.jpg) no-repeat center/cover;
+  height: 300px;
+}
+
+#social-icons a {
+  color: white;
+}
+
+#cards img {
+  width: 10rem;
+}
+
+footer a:hover {
+  font-weight: 700;
+}
